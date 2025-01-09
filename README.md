@@ -1,18 +1,18 @@
 # Single Wheel Diagram Generator
 
-This Python script generates a **Single Wheel Diagram** to visualize the state of play elements (Reservoir, Seal, Charge, Trap) for a specific well and play. It is a **limited version** of the [Well Penetration Chart Generator](https://github.com/your-username/well-penetration-chart), which creates multi-well visualizations and offers advanced features like exporting pie charts and updating input files.
+This Python script generates a **Single Wheel Diagram** to visualize the state of play elements (Reservoir, Seal, Charge, Trap) for a specific well and play. It is a **limited version** of the [Well Penetration Chart Generator](https://github.com/ExpGeoLab/WellPenetrationChart), which creates multi-well visualizations and offers advanced features like exporting pie charts and updating input files.
 
 ---
 
 ## 📋 Table of Contents
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Input Data](#input-data)
-- [Output](#output)
-- [Well Penetration Chart Generator](#well-penetration-chart-generator)
-- [License](#license)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Input Data](#-input-data)
+- [Output](#-output)
+- [Well Penetration Chart Generator](#-well-penetration-chart-generator)
+- [License](#-license)
 
 ---
 
@@ -21,6 +21,7 @@ This Python script generates a **Single Wheel Diagram** to visualize the state o
 - **Customizable Input**: Allows customization of well name, play name, and play element states.
 - **Dynamic Colors**: Uses predefined colors for each play element.
 - **Interactive Visualization**: Displays the diagram with a title and optional legend.
+  
 ![wagonWheelS](https://github.com/user-attachments/assets/7137a33d-6dfb-4a26-bc5e-b644d2bbbfdc)
 
 ---
@@ -44,7 +45,7 @@ pip install matplotlib numpy
    git clone https://github.com/your-username/single-wheel-diagram.git
    cd single-wheel-diagram
    ```
-2. Install the required libraries (see [Requirements](#requirements)).
+2. Install the required libraries (see [Requirements](#-requirements)).
 
 ---
 
@@ -108,12 +109,12 @@ The **Well Penetration Chart Generator** is a more advanced tool that extends th
 - Customize chart sizes, colors, and grid properties.
 - Export updated data in **Excel** or **CSV** format.
 
-For more details, visit the [Well Penetration Chart Generator repository](https://github.com/your-username/well-penetration-chart).
+For more details, visit the [Well Penetration Chart Generator repository](https://github.com/ExpGeoLab/WellPenetrationChart).
 
 ---
 
 ## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons License. See the [LICENSE](LICENSE.txt) file for details.
 
 ---
 
