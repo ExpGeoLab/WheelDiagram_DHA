@@ -61,19 +61,26 @@ python single_wheel_diagram.py
 
 ---
 
-## 📂 Input Data
+### 📂 Input Data
 The script uses the following predefined inputs:
 - **Well Name**: Name of the well (e.g., `RP-54st`).
 - **Play**: Name of the play (e.g., `Devonian`).
-- **Category States**: A dictionary defining the state of each play element:
-  ```python
-  category_states = {
-      "Reservoir": "Present", 
-      "Seal": "Present",
-      "Charge": "Present",
-      "Trap": "Present"
-  }
-  ```
+- **Category States**: A dictionary defining the state of each play element. The possible states are:
+  - `"Present"`: The play element is confirmed to be present.
+  - `"Ambiguous"`: The play element is partially present or uncertain.
+  - `"Not Present"`: The play element is confirmed to be absent.
+  - `"Unevaluated"`: The play element has not been evaluated.
+
+Example:
+```python
+category_states = {
+    "Reservoir": "Present", 
+    "Seal": "Ambiguous",
+    "Charge": "Not Present",
+    "Trap": "Unevaluated"
+}
+``` 
+
 
 ---
 
